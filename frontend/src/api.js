@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://procurement-system-28lm.onrender.com';
 const TOKEN_KEY = 'procureflow.accessToken';
 
 export const getToken = () => localStorage.getItem(TOKEN_KEY);

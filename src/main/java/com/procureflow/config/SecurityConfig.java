@@ -209,7 +209,8 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(
                 List.of(
                         "http://localhost:5173",
-                        "http://localhost:3000"
+                        "http://localhost:3000",
+                        "https://procurement-system-beta.vercel.app"
                 )
         );
 
